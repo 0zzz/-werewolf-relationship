@@ -1,0 +1,16 @@
+.layout {
+  .page {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+  }
+
+  :global {
+
+    .ant-layout-content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
